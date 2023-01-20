@@ -1,4 +1,17 @@
-- title: About
+# - title: About
+#   url: about
+# - title: Documentation
+#   url: docs
+
+
+
+- title: "About"
   url: about
-- title: Documentation
-  url: docs
+- title: "Projects"
+  url: projects
+- title: "Guide"
+  url: guide
+- title: "Compliance"
+  url: compliance
+- title: "Blog"
+  url: blog

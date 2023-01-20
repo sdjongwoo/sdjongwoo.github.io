@@ -616,6 +616,12 @@ mark,
     height: auto
 }
 
+.td-content-center {
+    max-width: 100%;
+    height: auto;
+    text-align: left
+}
+
 .img-thumbnail {
     padding: .25rem;
     background-color: #fff;

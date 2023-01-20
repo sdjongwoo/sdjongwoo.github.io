@@ -740,8 +740,8 @@ pre code {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px
+    /* margin-right: -15px; */
+    /* margin-left: -15px */
 }
 
 .no-gutters {
@@ -18442,7 +18442,7 @@ html body .md-typeset .headerlink {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    height: 100vh
+    /* height: 100vh */
 }
 
 @media(min-width:768px) {
@@ -18621,4 +18621,25 @@ footer {
         margin-bottom: 30px;
     }
     
+}
+
+/* index page css */
+.jb-wrap {
+    margin: 0;
+    top: 50px;
+    width: 100%;
+    position: relative;
+}
+.jb-wrap img {
+    width: 100%;
+    height: 500px;
+    vertical-align: middle;
+}
+.jb-text {
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }

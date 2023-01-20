@@ -27,25 +27,13 @@
 
 <body class="td-section">
     {% include header.html %}
-    <div class="td-outer">
-        
-        <div class="td-content-center" >
-            <div style="background-image: url(../assets/img/indexbg.jpg); height: 500px;">
-                <dvi>
-                    {{ content }}
-                </dvi>
-            </div>
+    <div class="jb-wrap">
+        <div class="jb-image"><img src="../assets/img/indexbg.jpg" alt=""></div>
+        <div class="jb-text">
+            {{ content }}
         </div>
-        <!--
-
-            <div class="td-main">
-                <div class="td-content-center" >
-                    <div style="background-image: url(../assets/img/indexbg.jpg); height: 300px;">
-                        {{ content }}
-                    </div>
-                </div>
-            </div>
-        -->
+    </div>
+    <div class="td-outer">
         {% include footer.html %}
     </div>
     {% include scripts.html %}
